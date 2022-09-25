@@ -1,0 +1,572 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+/*$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px
+);*/
+
+* {
+    margin: 0;
+}
+
+.container {
+    margin: 0;
+}
+
+body {
+    margin: auto;
+    display: flex;
+    background-color: #edf2f6;
+
+}
+
+.sidebar {
+    background-color: #1b4965;
+    font-family: Varela Round, arial, sans-serif;
+    letter-spacing: 2px;
+    width: 15vw;
+    height: 100%;
+    position: fixed;
+    color: white;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 15px;
+    font-size: 16px;
+}
+
+.sidebar nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar nav li {
+    list-style: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.topBar .ham {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+
+.topBar .cross {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+
+
+
+.main {
+    width: 85vw;
+
+    margin-left: 15vw;
+}
+
+.container {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    max-width: none;
+}
+
+.infoContainer {
+    height: 120vh;
+    display: flex;
+    margin: 0px auto;
+    justify-content: space-around;
+    background-color: #edf2f6;
+}
+
+.devInfo {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 3rem;
+    justify-content: center;
+    margin-bottom: 27vh;
+}
+
+.devPic img {
+    height: 55vh;
+    border-radius: 30px;
+    margin-top: 15vh;
+}
+
+.devInfo button {
+    font-size: 17px;
+    margin-top: 50px;
+    height: 8vh;
+    width: 10vw;
+    background-color: #1b4965;
+    color: white;
+}
+
+.devInfo button a {
+    color: white;
+    text-decoration: none;
+}
+
+.devInfo button:hover {
+    background-color: #235e83;
+    color: white;
+}
+
+.infoContainer form button {
+    font-size: 17px;
+    margin-top: 20px;
+    height: 6vh;
+    width: 7vw;
+    background-color: #1b4965;
+    color: white;
+}
+
+.infoContainer form {
+    width: 55%;
+}
+
+.form-control {
+    background-color: #e9ecefa8;
+    border: none;
+}
+
+.infoContainer form button:hover {
+    background-color: #235e83;
+    color: white;
+}
+
+.main h1 {
+    display: flex;
+    font-family: Varela Round, arial, sans-serif;
+    padding-top: 50px;
+    padding-left: 50px;
+    font-size: 3rem;
+    justify-content: center;
+}
+
+.skills {
+    width: 85vw;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills div1 {
+    font-family: Varela Round, arial, sans-serif;
+    letter-spacing: 2px;
+    padding: 100px;
+    margin-right: 80px;
+    font-size: larger;
+    color: #2a6a92;
+}
+
+.skills div1 p {
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: normal;
+    text-decoration: none;
+    font-size: medium;
+    color: black;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.skills div2 {
+    font-size: larger;
+    color: #2a6a92;
+    font-family: Varela Round, arial, sans-serif;
+    letter-spacing: 2px;
+    padding: 100px;
+    margin-left: 20px;
+}
+
+.skills div2 p {
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: normal;
+    text-decoration: none;
+    font-size: medium;
+    color: black;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.topBar {
+    height: 8vh;
+    background-color: transparent;
+    padding: 10px;
+    display: flex;
+    justify-content: right;
+}
+
+.topName {
+    font-family: 'Fira Sans', sans-serif;
+    margin-right: 70vw;
+    margin-top: 1vh;
+    font-weight: 900;
+    font-size: 3vh;
+    letter-spacing: 2px;
+}
+
+.topBar svg {
+    width: 2.4vw;
+    margin-top: 1vh;
+    height: 3vh;
+    color: black;
+}
+
+
+
+
+
+
+hr {
+    padding: 0;
+    margin: 0;
+}
+
+.Education {
+    width: 85vw;
+    background-color: white;
+    display: grid;
+}
+
+.Education h3 {
+    font-family: Varela Round, arial, sans-serif;
+    letter-spacing: 2px;
+    font-size: larger;
+    color: #2a6a92;
+    margin-left: 98px;
+    width: fit-content;
+}
+
+.Education .bachelor {
+    margin-left: 513px;
+}
+
+.Education .hsc {
+    margin-left: 513px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Education .bachelor p2 {
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    font-size: medium;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.Education .hsc p2 {
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    font-size: medium;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.Education .bachelor p1 {
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: 300;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.Education .hsc p1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    font-size: x-large;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.quote {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote p1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: xx-large;
+    font-weight: 400;
+    color: #1b4965;
+}
+
+.author {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (min-width:0px) and (max-width:576px) {
+
+
+
+    .sidebar {
+        width: 160px;
+        /*transform: translate(-160px, 0px);*/
+    }
+
+    .sidebarGo {
+        transform: translate(-160px, 0px);
+    }
+
+    .main {
+        margin: 0;
+        width: 100%;
+    }
+
+    .infoContainer {
+        flex-wrap: wrap-reverse;
+    }
+
+    .devPic img {
+        height: 34vh;
+    }
+
+    .devInfo button {
+        height: 55px;
+        width: 130px;
+    }
+
+    .skills {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .skills div1 {
+        margin-left: 30px;
+        padding: 75px;
+    }
+
+    .skills div2 {
+        margin-left: 25px;
+        padding: 75px;
+    }
+
+    .Education {
+        width: 100%;
+
+    }
+
+    .Education .bachelor {
+        margin-left: 15px;
+    }
+
+    .Education .bachelor p1 {
+        font-size: larger;
+        font-weight: 400;
+    }
+
+    .Education .hsc p1 {
+        font-size: larger;
+        font-weight: 400;
+    }
+
+    .Education .hsc {
+        margin-left: 15px;
+    }
+
+    .quote {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .quote p1 {
+        font-size: x-large;
+    }
+
+}
+
+
+
+@media (min-width:576px) and (max-width:768px) {
+
+
+
+    .sidebar {
+        width: 160px;
+        /*transform: translate(-160px, 0px);*/
+    }
+
+    .sidebarGo {
+        transform: translate(-160px, 0px);
+    }
+
+    .main {
+        margin: 0;
+        width: 100%;
+    }
+
+    .infoContainer {
+        flex-wrap: wrap-reverse;
+    }
+
+    .devPic img {
+        height: 46vh;
+    }
+
+    .devInfo button {
+        height: 55px;
+        width: 130px;
+    }
+
+    .skills {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .skills div1 {
+        margin-left: 30px;
+        padding: 75px;
+    }
+
+    .skills div2 {
+        margin-left: 25px;
+        padding: 75px;
+    }
+
+    .Education {
+        width: 100%;
+
+    }
+
+    .Education .bachelor {
+        margin-left: 10vw;
+    }
+
+    .Education .bachelor p1 {
+        font-size: larger;
+        font-weight: 400;
+    }
+
+    .Education .hsc p1 {
+        font-size: larger;
+        font-weight: 400;
+    }
+
+    .Education .hsc {
+        margin-left: 10vw;
+    }
+
+    .quote {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .quote p1 {
+        font-size: x-large;
+    }
+
+}
+
+
+@media (min-width:768px) and (max-width:992px) {
+
+
+
+    .sidebar {
+        width: 160px;
+        /*transform: translate(-160px, 0px);*/
+    }
+
+    .sidebarGo {
+        transform: translate(-160px, 0px);
+    }
+
+    .main {
+        margin: 0;
+        width: 100%;
+    }
+
+    .infoContainer {
+        flex-wrap: wrap-reverse;
+    }
+
+    .devPic img {
+        height: 52vh;
+    }
+
+    .devInfo button {
+        height: 55px;
+        width: 130px;
+    }
+
+    .skills {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .skills div1 {
+        margin-left: 30px;
+        padding: 75px;
+    }
+
+    .skills div2 {
+        margin-left: 25px;
+        padding: 75px;
+    }
+
+    .Education {
+        width: 100%;
+
+    }
+
+    .Education .bachelor {
+        margin-left: 10vw;
+    }
+
+    .Education .bachelor p1 {
+        font-size: larger;
+        font-weight: 400;
+    }
+
+    .Education .hsc p1 {
+        font-size: larger;
+        font-weight: 400;
+    }
+
+    .Education .hsc {
+        margin-left: 10vw;
+    }
+
+    .quote {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .quote p1 {
+        font-size: xx-large;
+    }
+
+}
+
+@media (min-width:992px) {
+    .topBar .ham {
+        display: none;
+
+    }
+
+    .topBar .cross {
+        display: none;
+
+    }
+}
